@@ -25,12 +25,13 @@ time, mark, audio, video {
     padding:0;
     margin:0;
     max-width:100%;
+    /* border: 2px #059033 solid; */
 }
 
 html{
     font-size:62.5%;
     padding: 2%;
-    background-color: #f7f7f7;
+    background-color: #dfedd0;
     color: #373d34;
 }
 h1{
@@ -39,9 +40,18 @@ h1{
     background: -webkit-linear-gradient(#355A20, #059033, #7BAA47);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 8%;
 }
 h2{
     font-size: 2.5rem;
+    font-family: 'Krona One', sans-serif;
+    background: -webkit-linear-gradient(#355A20, #059033, #7BAA47);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h3{
+    font-size: 2rem;
     font-family: 'Nunito', sans-serif;
 }
 p{
@@ -54,4 +64,49 @@ img{
     width: 400px;
     overflow: hidden;
     background-size: cover;
+    border-radius: 10%;
+}
+.about{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8%;
+} 
+.Martin, .Ian, .Deborah, .Kristine, .Zac, .Daniel{
+    width: 45%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.Martin, .Deborah, .Zac{
+    margin-right: 2.5%;
+}
+.Ian, .Kristine, .Daniel{
+    margin-left: 2.5%;
+}
+footer nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer nav a {
+    font-size: 1.8rem;
+    font-family: 'Krona One', sans-serif;
+    width:100%;
+    text-align:center;
+    color:#EFF1ED;
+    background-color: #7baa47;
+    padding: 3%;
+    text-decoration: none;
+    border-radius: 20%;
+    margin: 0 3%;
+}
+footer nav a:hover{
+    background-color: #355A20;
+    color: #A984A5;
 }

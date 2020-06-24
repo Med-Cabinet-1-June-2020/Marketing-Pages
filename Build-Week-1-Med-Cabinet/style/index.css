@@ -30,7 +30,7 @@ time, mark, audio, video {
 html{
     font-size:62.5%;
     padding: 2%;
-    background-color: #f7f7f7;
+    background-color: #dfedd0;
     color: #373d34;
 }
 h1{
@@ -70,7 +70,7 @@ header nav a{
     width:30%;
     text-align:center;
     color:#EFF1ED;
-    background-color: #B6C8A9;
+    background-color: #7baa47;
     padding: 3%;
     text-decoration: none;
     border-radius: 20%;
@@ -78,8 +78,8 @@ header nav a{
     height: 100px;
 }
 header nav a:hover{
-    background-color: #7BAA47;
-    color: darkmagenta;
+    background-color: #355A20;
+    color: #A984A5;
 }
 
 .intro{
@@ -120,15 +120,15 @@ footer nav a {
     width:100%;
     text-align:center;
     color:#EFF1ED;
-    background-color: #B6C8A9;
+    background-color: #7baa47;
     padding: 3%;
     text-decoration: none;
     border-radius: 20%;
     margin: 0 3%;
 }
 footer nav a:hover{
-    background-color: #7BAA47;
-    color: darkmagenta;
+    background-color: #355A20;
+    color: #A984A5;
 }
 @media (max-width: 1000px){
 
