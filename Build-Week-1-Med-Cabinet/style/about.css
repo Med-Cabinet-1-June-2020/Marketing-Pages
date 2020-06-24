@@ -152,7 +152,6 @@ footer nav a:hover{
     }
 }
 @media (max-width: 400px){
-
     img{
         height: 150px;
         width: 150px;
@@ -160,5 +159,4 @@ footer nav a:hover{
     .Martin, .Ian, .Deborah, .Kristine, .Zac, .Daniel{
         margin: 0;
     }
-
 }
