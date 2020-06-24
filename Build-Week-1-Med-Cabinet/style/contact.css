@@ -53,12 +53,14 @@ h2{
     justify-content: center;
     align-items: center;
     width: 80%;
+    text-align: center;
 }
 .contact a{
     font-size: 2rem;
     padding: 5%;
     color: #355A20;
     width: 95%;
+    text-align: center;
 }
 .contact a:hover{
     color: #A984A5;
