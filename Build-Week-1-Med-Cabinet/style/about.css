@@ -110,3 +110,55 @@ footer nav a:hover{
     background-color: #355A20;
     color: #A984A5;
 }
+
+@media (max-width: 1000px){
+
+}
+@media (max-width: 800px){
+    img{
+        height: 350px;
+        width: 350px;
+    }
+    .about{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    footer nav a{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 500px){
+    img{
+        height: 200px;
+        width: 200px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer nav{
+        display: flex;
+        flex-flow: column wrap;
+        width: 40%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about div h2{
+        text-align: center;
+    }
+}
+@media (max-width: 400px){
+
+    img{
+        height: 150px;
+        width: 150px;
+    }
+    .Martin, .Ian, .Deborah, .Kristine, .Zac, .Daniel{
+        margin: 0;
+    }
+
+}
